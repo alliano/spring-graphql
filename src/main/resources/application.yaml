@@ -1,0 +1,12 @@
+server:
+  port: 8081
+spring:
+  profiles:
+    active:
+      - "dev"
+  applications:
+    name: spring-graphql
+  graphql:
+    graphiql:
+      enabled: true
+      path: /graphiql
