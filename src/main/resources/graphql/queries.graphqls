@@ -1,5 +1,7 @@
 type Query {
     bookById(id: String) : Book
+    getHelloWolrd(name: String) : String
+    getStudentBiId(id: String) : Student
 }
 
 type Book {
@@ -14,7 +16,3 @@ type Author {
     firstName: String
     lastName: String
 }
-
-# type Query {
-#     getHelloWolrd(name: String) : String
-# }
