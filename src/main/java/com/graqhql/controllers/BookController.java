@@ -22,4 +22,9 @@ public class BookController {
         return Author.getById(book.getAuthorId());
     }
 
+    @QueryMapping
+    public String getHelloWolrd( @Argument String name) {
+        return "Hello "+name;
+    }
+
 }

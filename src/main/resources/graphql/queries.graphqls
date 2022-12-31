@@ -14,3 +14,7 @@ type Author {
     firstName: String
     lastName: String
 }
+
+# type Query {
+#     getHelloWolrd(name: String) : String
+# }
