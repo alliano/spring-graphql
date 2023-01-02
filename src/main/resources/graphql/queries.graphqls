@@ -2,6 +2,7 @@ type Query {
     bookById(id: String) : Book
     getHelloWolrd(name: String) : String
     getStudentBiId(id: String) : Student
+    getStudents : [Student]
 }
 
 type Book {
